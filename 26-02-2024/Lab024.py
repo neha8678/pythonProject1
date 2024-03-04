@@ -3,7 +3,9 @@ class Car :
     make = None
     model = None
 
-    def __init__(self,o_name,o_make,o_model):  #Constructor created...  #Special F(n) . called object is created...
+
+
+    def __init__(self,o_name,o_make,o_model):  #Parameterised Constructor created...  #Special F(n) . called object is created...
         self.name = o_name
         self.make = o_make
         self .model = o_model
